@@ -7,10 +7,10 @@ You can compose this image, and use it straight away.
 
 You may need to change lines 
 ```
-RUN wget --quiet --output-document=gradle-5.1.1-bin.zip https://services.gradle.org/distributions/gradle-5.1.1-bin.zip
+RUN wget --quiet --output-document=gradle-5.4.1-bin.zip https://services.gradle.org/distributions/gradle-5.4.1-bin.zip
 RUN mkdir /opt/gradle
-RUN unzip -d /opt/gradle gradle-5.1.1-bin.zip
-RUN rm gradle-5.1.1-bin.zip
+RUN unzip -d /opt/gradle gradle-5.4.1-bin.zip
+RUN rm gradle-5.4.1-bin.zip
 ```  
 to latest gradle versions, you can obtain them here
 `https://services.gradle.org/distributions/`
